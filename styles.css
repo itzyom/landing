@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #24201d; 
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fixed;
+    height: fit-content;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans Unicode';
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav a {
+    color:#dabd4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    padding-top:50px;
+    padding-left: 100px;
+    text-align:center;
+    font-size: 45px;
+    background-color: #e4e1dd;
+    color: rgb(0, 0, 0);
+    width: fixed;
+    height: 1020px;
+}
+
+.button {
+    padding: 15px 60px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-inline:100px;
+    margin-block: 10px;
+    margin-right: 100px;
+}
+
+.yellow {
+    background-color: #f7cf2f;
+    color: #000;
+    text-align: center;
+
+}
+
+.white {
+    background-color: #fff; 
+    color: #000; 
+    border: 2px solid #f7cf2f; 
+    margin-right: 100px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 8px; /* Space between images */
+    width: 27%; /* Width of the gallery */
+    float: right;
+    padding-top: 70px;
+    padding-right: 5%;
+}
+
+.image-container {
+    border: 5px solid #000000; 
+    border-radius: 5px; 
+    background-color: white;
+    padding: 5px; 
+}
+
+.bordered-image {
+    display: block; 
+    max-width: 100%; 
+    height: fixed;
+}
+
+.location {
+    font-size: 30px; 
+    display: flex; 
+    align-items: center; 
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.location i {
+    font-size: 30px; 
+    display: flex; 
+    align-items: center; 
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.paw {
+    padding-top:fixed;
+    width: fixed;
+    padding: 50px;
+}
+
+.subtitle, .moreinfo {
+    text-align: center;
+    font-style: jockey one;
+    font-size: 40px;
+    color: black;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: fixed;
+}
+
+header {
+    text-align: center;
+    background-color: #634f36; /* Dark brown */
+    color: white; /* White text */
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 3px;
+  }
+  
+  .row:after {
+    content:normal;
+    clear: both;
+    display: table;
+  }
+
+
